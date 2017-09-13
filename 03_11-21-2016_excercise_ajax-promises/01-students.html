@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shit</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+        #results {
+            background-color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        #results tr {
+            background-color: #AAAAAA;
+            padding: 5vh;
+            font-size: 1.5vw;
+        }
+
+        #results tr:nth-child(odd) {
+            background-color: #808080;
+        }
+
+        #results tr:first-child {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 2vw;
+        }
+
+        #results tr th {
+            padding: 1vw;
+        }
+
+        #results tr td {
+            padding: 1vw;
+            transition: font-size 0.2s;
+        }
+
+        #message {
+            padding: 10px;
+            border: 1px solid gray;
+            background-color: whitesmoke;
+            font-size: 22px;
+            -webkit-border-radius:10px;
+            -moz-border-radius:10px;
+            border-radius:10px;
+            margin:10px;
+            font-weight: bold;
+            color:white;
+        }
+
+        /*#results tr:not(:first-child):hover {*/
+            /*background-color: #F0F8FF;*/
+            /*color: #000000;*/
+            /*font-size: 2.25vw;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+<div id="message" style="display: none"></div>
+<table id="results">
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Faculty Number</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td><input id="id-input" type="text" /></td>
+        <td><input id="first-name-input" type="text" /></td>
+        <td><input id="last-name-input" type="text" /></td>
+        <td><input id="faculty-number-input" type="text" /></td>
+        <td><input id="grade-input" type="text" /></td>
+        <td><button id="newStudent">Create</button></td>
+    </tr>
+</table>
+<script src="01-students.js"></script>
+<script>
+    solve();
+</script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body, input, button {
+    font-size: 20px;
+}
+
+#wrapper {
+    margin:10px;
+}
+
+header, footer{
+    background-color: #ddd;
+    border-radius: 7px;
+    padding: 10px;
+    text-align:center;
+}
+
+header {
+    font-size: 25px;
+}
+    header > a {
+        padding: 5px;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    header > a:hover {
+        color: orange;
+    }
+    header > #welcome {
+        float: right;
+    }
+
+#success, #error {
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px 50px;
+    text-align: center;
+    color: white;
+}
+
+#success {
+    background: darkgreen;
+}
+
+#error {
+    background: firebrick;
+}
+
+#content {
+    margin: 20px 10px;
+}
+
+#user-form > * {
+    display: block;
+}
+#user-form > label {
+    margin-top:5px;
+}
+#user-form > button {
+    margin-top:10px;
+}
+
+#books-list td,
+#books-list th {
+    padding: 10px;
+}
+
+th {
+    background: darkgray
+}
+
+td {
+    background: lightgray;
+}
+
+#create-book-form > * {
+    display: block;
+}
+#create-book-form > label {
+    margin-top:5px;
+}
+#create-book-form > button {
+    margin-top:10px;
+}
+#create-book-form > textarea {
+    font-size: 20px;
+    height: 100px;
+}
+
+
+

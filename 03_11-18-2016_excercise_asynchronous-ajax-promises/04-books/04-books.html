@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous"></script>
+    <style>
+        #books, #createForm {
+            display: inline-block;
+            width:48%;
+        }
+            #createForm > * {
+                display: block;
+            }
+        .book > * {
+            display: block;
+        }
+        #createForm {
+            border-left: 2px solid black;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+<div id="message" style="display: none"></div>
+<div id="books"></div><!--
+--><div id="createForm">
+    <h3>Create book</h3>
+    <labeL>Title</labeL>
+    <input type="text" id="input-title" placeholder="title" />
+    <labeL>Author</labeL>
+    <input type="text" id="input-author" placeholder="author" />
+    <labeL>tags</labeL>
+    <input type="text" id="input-tags" placeholder="tags" />
+    <input type="button" id="create" value="Create" />
+</div>
+<script src="04-books.js"></script>
+</body>
+</html>

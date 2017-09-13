@@ -1,0 +1,19 @@
+#success, #error, #loading {
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px 50px;
+    text-align: center;
+    color: white;
+}
+
+#success {
+    background: darkgreen;
+}
+
+#error {
+    background: firebrick;
+}
+
+#loading {
+    background: pink;
+}

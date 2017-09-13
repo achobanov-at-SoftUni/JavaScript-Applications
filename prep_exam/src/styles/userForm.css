@@ -1,0 +1,9 @@
+#user-form > * {
+    display: block;
+}
+#user-form > label {
+    margin-top:5px;
+}
+#user-form > button {
+    margin-top:10px;
+}

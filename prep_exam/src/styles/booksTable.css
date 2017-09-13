@@ -1,0 +1,12 @@
+#books-list td,
+#books-list th {
+    padding: 10px;
+}
+
+th {
+    background: darkgray
+}
+
+td {
+    background: lightgray;
+}

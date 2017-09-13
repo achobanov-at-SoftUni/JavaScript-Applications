@@ -1,0 +1,13 @@
+#book-form > * {
+    display: block;
+}
+#book-form > label {
+    margin-top:5px;
+}
+#book-form > button {
+    margin-top:10px;
+}
+#book-form > textarea {
+    font-size: 20px;
+    height: 100px;
+}
